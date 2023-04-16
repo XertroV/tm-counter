@@ -7,6 +7,9 @@ VirtualKey S_DecrCounter = VirtualKey::U;
 [Setting name="Key: Reset Counter"]
 VirtualKey S_ResetCounter = VirtualKey::K;
 
+[Setting name="Counter Font Size" min=8 max=256]
+float S_FontSize = 70.;
+
 [Setting name="Show Updated Counter for (seconds)" description="0 for always" min=0 max=20]
 float S_ShowForSecs = 2.5;
 

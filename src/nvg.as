@@ -5,7 +5,7 @@ const float TAU = 6.283185307179586;
 void DrawNvgText(const string &in toDraw, const vec4 &in bufColor, bool isSecondary = false) {
     auto screen = vec2(Draw::GetWidth(), Draw::GetHeight());
     vec2 pos = (screen * S_CounterPos / 100.);
-    float fontSize = screen.y * 0.05;
+    float fontSize = S_FontSize;
     float sw = fontSize * 0.11;
 
     nvg::FontFace(g_nvgFont);
