@@ -58,6 +58,8 @@ void OnCounterUpdate() {
 }
 
 uint lastCounterUpdateTime = 0;
+
+[Setting hidden]
 int g_Counter = 0;
 
 void OnIncrCounter() {
